@@ -40,8 +40,8 @@ public class Person {
     public String toString() {
         StringBuilder response = new StringBuilder();
         response.append("hello, my name is :" + getName());
-        response.append(". I am " + getGender());
-        response.append("and i am " + getAge());
+        response.append(". I am: " + getGender());
+        response.append(" and i am " + getAge());
         return response.toString();
 
     }
